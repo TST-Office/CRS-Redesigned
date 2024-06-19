@@ -4,6 +4,6 @@ export default function Home() {
   return <main>
     {greet("John Doe")}
     {<Icon name="arrow-down"/>}
-    <Button>Click me</Button>
+    <Button>Click me here!</Button>
   </main>;
 }
