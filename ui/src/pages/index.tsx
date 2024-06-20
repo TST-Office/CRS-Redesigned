@@ -1,9 +1,7 @@
-import { Button, Icon, greet } from "@/utility/util";
+import { Input } from "@/components/ui/Form/Form";
 
 export default function Home() {
   return <main>
-    {greet("John Doe")}
-    {<Icon name="arrow-down"/>}
-    <Button>Click me here!</Button>
+    {/* <Input /> */}
   </main>;
 }

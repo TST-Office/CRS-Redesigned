@@ -1,7 +1,3 @@
-export const greet = (name: string): string => {
-  return `Hello ${name}!`;
-};
-
 type IconProps = {
   name: "dropdown" | "arrow-up" | "arrow-down";
   link?: string;
@@ -19,8 +15,3 @@ export const Icon = ({ name, link, children }: IconProps): JSX.Element => {
 
   return <div>{icons[name]}</div>;
 };
-
-export const Button = ({children}: {children: React.ReactNode}): JSX.Element | null => {
-  if (!children) return null;
-  return <button>{children}</button>
-}
