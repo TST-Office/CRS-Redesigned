@@ -3,8 +3,6 @@ export type Children = {
 };
 
 export type InputProps = {
-  name: string;
-  type: string;
-  label: string;
-  error: boolean;
-}
+  label?: string;
+  error?: boolean;
+} & React.ComponentPropsWithRef<'input'>
